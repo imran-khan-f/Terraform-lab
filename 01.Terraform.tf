@@ -13,7 +13,7 @@ terraform {
 provider "aws" {
   #region  = "us-west-1" # Region where i want the installation to be.
   region  = var.region-01
-  profile = "default" # access key and secret key profile name is "default"
+  #profile = "default" # access key and secret key profile name is "default"
 }
 
 /*
