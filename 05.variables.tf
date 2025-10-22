@@ -2,14 +2,12 @@
 variable "region-01" {
   description = "Region where the resources needs to be deployed"
   type        = string
-  default     = "us-west-1"
 }
 
 #variables for the ami id 
 variable "aws-ec2-ami-id" {
   description = "ami id for the ec2 instance"
   type        = string
-  default     = "ami-0d902a8756c37e690"
 }
 
 /*
